@@ -1,0 +1,34 @@
+.container {
+    width: 720px;
+    height: 500px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    background-color: #ffffff;
+    opacity: 1;
+    overflow: hidden;
+    z-index: 2;
+    margin: 0 auto;
+}
+.block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    width: 720px;
+    height: 500px;
+}
+.close {
+    background-image: url('../../image/close.png');
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    position: absolute;
+    cursor: pointer;
+    top: 30px;
+    right: 30px;
+}

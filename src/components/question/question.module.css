@@ -1,0 +1,80 @@
+.container {
+    border: 1px solid #E8E8E8;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    margin: 40px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 130px;
+}
+.head {
+    border-bottom: 1px solid #000000;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.status {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 30px;
+}
+.text {
+    text-align: center;
+}
+.edit {
+    display: none;
+}
+.edit_active {
+    display: block;
+}
+.input__name {
+    border: none;
+    background-color: #F5F5F5;
+    font-size: 16px;
+    width: 300px;
+}
+.input__email {
+    border: none;
+    background-color: #F5F5F5;
+    font-size: 16px;
+    width: 300px;
+    text-align: end;
+}
+.input__text {
+    border: none;
+    background-color: #F5F5F5;
+    font-size: 16px;
+    width: 90%;
+    height: 60px;
+    resize: none;
+}
+.changeData {
+    display: none;
+}
+.changeData_active {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+}
+.container:first-child {
+    margin-top: 0;
+}
+.status__input {
+    background-color: #F5F5F5;
+    border: none;
+    font-size: 17px;
+}
+.changeStatus {
+    display: none;
+}
+.changeStatus__active {
+    width: 100%;
+    display: block;
+}
+.changeStatus__button {
+    margin: 20px 20px 0 0;
+}
